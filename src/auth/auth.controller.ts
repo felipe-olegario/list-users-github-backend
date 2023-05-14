@@ -43,6 +43,6 @@ export class AuthController {
     const userData = userResponse.data;
     return res
       .status(HttpStatus.ACCEPTED)
-      .redirect('http://localhost:3000/users');
+      .redirect('http://3.82.122.231:3000/users');
   }
 }
